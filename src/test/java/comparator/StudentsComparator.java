@@ -5,24 +5,24 @@ import java.util.Comparator;
 
 public class StudentsComparator implements Comparator<StudentDTO>  {
 
-	public int compare(StudentDTO students1, StudentDTO students2) {
+	public int compare(StudentDTO student1, StudentDTO student2) {
 		// sort by first name
-		int result = students1.getFirstName().compareTo(students2.getFirstName());
+		int result = student1.getFirstName().compareTo(student2.getFirstName());
 		if(0 != result){
 			return result;
 		}		  
 	    // if first name equal, sort by last name
-		result = students1.getLastName().compareTo(students2.getLastName());
+		result = student1.getLastName().compareTo(student2.getLastName());
 		if(0 != result){
 			return result;
 		}
 		// if last name equal, sort by course
-	    result = students1.getCourse().compareTo(students2.getCourse());
+	    result = student1.getCourse().compareTo(student2.getCourse());
 	    if(0 != result){
 			return result;
 		}
 	    // if course equal, sort by age
-	    result = students1.getAge() - students2.getAge();
+	    result = student1.getAge() - student2.getAge();
 	    if(0 != result){
 			return result;
 		}
