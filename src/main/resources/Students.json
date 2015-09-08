@@ -1,0 +1,20 @@
+[
+    {
+        "FirstName": "Oleksii",
+        "LastName": "Mazuryk",
+        "Course": "LITS_AUT_10",
+        "Age": "29"
+    },
+    {
+        "FirstName": "Mary",
+        "LastName": "Oliynyk",
+        "Course": "LITS_AUT_10",
+        "Age": "27"
+    },
+    {
+        "FirstName": "Bohdan",
+        "LastName": "Zhyvko",
+        "Course": "LITS_AUT_10",
+        "Age": "24"
+    }
+]
